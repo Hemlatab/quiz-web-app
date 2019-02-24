@@ -1,17 +1,18 @@
 body{
   background-color:white;
+  font-family: Arial, Helvetica, sans-serif
 }
 * {
   box-sizing: border-box;
 }
 .logo{
   font-family: 'Baloo Tamma';font-size: 28px;
-  flex:1;
+  justify-content: flex-start;
 }
 .header{
   padding:15px;
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
 }
 .navbar{
   flex: 4;
@@ -29,16 +30,21 @@ ul a{
 li{
     list-style-type:none;
     display:inline-block;
-    padding:10px 10px;
+    text-decoration: none;
   }
-}
+
 li a{
   display: block;
-  padding: 30px;
+  margin:10px;
+  background-color: #E49455;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 12px;
+  font-weight: bold;
 }
 .menu-btn{
-  color: #565b60;
-  font-size: 8px bold;
+  color:white;
   border-radius: 12px;
 }
 .title{
@@ -62,16 +68,20 @@ li a{
 .start-test-btn{
   text-decoration: none;
   margin:10px;
-  background-color: #55bde4;
-  padding: 5px;
-  color: #565b60;
+  background-color: #E49455;
+  padding: 10px;
+  color: #ffffff;
   font-size: 14px;
   border-radius: 12px;
-  font-weight: bolder;
+  font-weight: bold;
+}
+.time{
+  font-weight: bold;
 }
 .footer{
   background-color: #55bde4;
   padding:30px;
-  color: #565b60;
+  color: #ffffff;
   text-align: center;
+  font-weight: bold;
 }
