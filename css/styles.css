@@ -1,24 +1,37 @@
 body{
   background-color:white;
 }
+* {
+  box-sizing: border-box;
+}
 .logo{
-  font-family: 'Baloo Tamma';font-size: 22px;
+  font-family: 'Baloo Tamma';font-size: 28px;
+  flex:1;
+}
+.header{
+  padding:15px;
+  display: flex;
+  flex-direction:column;
+}
+.navbar{
+  flex: 4;
+  text-align: right;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #55bde4;
 }
 ul a{
   text-decoration: none;
-  
 }
 li{
-  float: right;
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 10px;
+  }
 }
-
 li a{
   display: block;
   padding: 30px;
